@@ -13,10 +13,8 @@ def degree(radius: float, time: float, acceleration: float, velocity: float = 0)
         velocity: float - the speed at which the ball moves.
 
     Returns:
-        degree of rotation of the ball.
-
-    Raises:
-        Exeption - if rate is not defined for position (position unknow)."""
+        float - degree of rotation of the ball.
+    """
     distance = velocity * time + (acceleration * time ** 2) / 2
     length = 2 * pi * radius
     new_degree = ((distance % length) / length) * 360
