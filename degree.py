@@ -1,4 +1,4 @@
-""""Module for calculating the rotation of the ball in degrees."""
+"""Module for calculating the rotation of the ball in degrees."""
 
 from math import pi
 
